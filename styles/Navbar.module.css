@@ -1,0 +1,26 @@
+.nav_bg {
+    /* background-image: url('../img/Group3877.png'); */
+    padding-top: 42px;
+}
+
+.gym {
+    background-color: #6765F0;
+    border-radius: 10px;
+    color: white;
+    padding: 3px 6px 2px 5px;
+}
+
+.baran {
+    color: #6765F0;
+    padding: 3px 6px 2px 5px;
+}
+
+.login {
+
+
+padding: 13px 32px 13px 35px;
+    color: white;
+    background: #264373;
+    box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+    border-radius: 10px;
+}

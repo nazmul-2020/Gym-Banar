@@ -1,32 +1,56 @@
 import React from 'react';
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import { AiFillPlayCircle } from 'react-icons/ai';
+import styles from '@/styles/Banner.module.css';
+import Image from 'next/image';
+
 
 const Banner = () => {
-    return (
-        <div>
-           {/* <div></div>
-           <div></div> */}
+  return (
+    <div>
+      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 
-<section class="text-gray-600 body-font">
-  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-        {/* <br class="hidden lg:inline-block">readymade gluten */}
-      </h1>
-      <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-      <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
-      </div>
-    </div>
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
-    </div>
-  </div>
-</section>
-           
+        <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <h1 className={`${styles.bannerText} ${''} `}
+          // "title-font sm:text-4xl text-3xl mb-4 font-bold  text-gray-900"
+          >
+            Healthy in side <br /> <span className={styles.bannerTextSpan}>fresh</span> out side
+          </h1>
+          <p className={styles.bannerTextP}>Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
 
+          <div class="flex justify-center">
+            <button className={`${styles.bannerBtn1} ${"flex justify-between items-center px-6 text-white"}`}
+            >Get started
+              <span className='bg-white text-black rounded-full'><MdOutlineKeyboardArrowRight /></span></button>
+
+            <button class={`${styles.bannerBtn2} ${'flex items-center text-gray-700 bg-white  py-2 px-5'}`}
+            > <span className='mr-3'><AiFillPlayCircle /></span> Learn more</button>
+          </div>
+
+          <div className='mt-[51px] w-[462px] '>
+            <p>Brands:</p>
+            <div className='mt-[11px] flex justify-between items-center'>
+          <Image src='/img/Mask Group.png' width={68} height={21}/>
+          <Image src='/img/Mask Group (1).png' width={53} height={36}/>
+          <Image src='/img/Mask Group (2).png' width={80} height={63}/>
+          <Image src='/img/Mask Group (3).png' width={119} height={39}/>
+            </div>
+          </div>
         </div>
-    );
+
+        <div className=
+        "lg:max-w-lg lg:w-full md:w-1/2 w-5/6"
+        >
+          {/* <h1>kkk</h1> */}
+          {/* <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" /> */}
+          <Image className='pt-[-10px]' src='/img/Group 4227.png' width={584} height={580}/>
+        </div>
+      </div>
+
+
+
+    </div>
+  );
 };
 
 export default Banner;

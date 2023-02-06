@@ -1,0 +1,39 @@
+.bannerText{
+width: 568px;
+/* height: 146px; */
+font-weight: 700;
+font-size: 56px;
+color: #262524;
+}
+
+.bannerTextSpan{
+    color: #8382EB;
+}
+.bannerTextP{
+width: 492px;
+margin-top: 23px;
+margin-bottom: 22px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #262524;
+}
+
+.bannerBtn1{
+width: 246px;
+height: 56px;
+background: #264373;
+box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+border-radius: 10px;
+font-size: 16px;
+}
+
+.bannerBtn2{
+width: 174px;
+height: 56px;
+margin-left: 35px;
+box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+border-radius: 10px;
+font-size: 16px;
+}

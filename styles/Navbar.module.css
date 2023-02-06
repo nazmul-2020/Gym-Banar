@@ -1,6 +1,7 @@
 .nav_bg {
     /* background-image: url('../img/Group3877.png'); */
     padding-top: 42px;
+
 }
 
 .gym {
@@ -16,11 +17,23 @@
 }
 
 .login {
-
-
-padding: 13px 32px 13px 35px;
+    padding: 13px 32px 13px 35px;
     color: white;
     background: #264373;
     box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
     border-radius: 10px;
+}
+
+
+.ddd {
+
+    position: absolute;
+    width: 884px;
+    height: 884px;
+    left: 290px;
+    top: -340px;
+
+    background: rgba(212, 138, 255, 0.600);
+    opacity: 0.6;
+    filter: blur(282px);
 }

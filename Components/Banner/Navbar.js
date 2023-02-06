@@ -20,27 +20,27 @@ const Navbar = () => {
                         <Link href="/" className="font-normal text-black">Program</Link>
                         <Link href="/" className="font-normal text-black">Blog</Link>
                         <Link href="/" className="font-normal text-black">About Us</Link>
-                            <Link
-                                href="/"
-                                className={`${styles.login} ${'font-normal text-white'}`}
-                                // "inline-flex items-center justify-center py-[13px] px-6 bg-aaa font-medium tracking-wide  transition duration-200 rounded-[10px] shadow-md bg-deep-purple-accent-400 "
-                                // aria-label="Sign up"
-                                // title="Sign up"
-                            >
-                                Login
-                            </Link>
+                        <Link
+                            href="/"
+                            className={`${styles.login} ${'font-normal text-white'}`}
+                        // "inline-flex items-center justify-center py-[13px] px-6 bg-aaa font-medium tracking-wide  transition duration-200 rounded-[10px] shadow-md bg-deep-purple-accent-400 "
+                        // aria-label="Sign up"
+                        // title="Sign up"
+                        >
+                            Login
+                        </Link>
                     </ul>
                     {/* <!-- Mobile menu --> */}
                     <div class="lg:hidden">
-                        <button aria-label="Open Menu" title="Open Menu" class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50">
+                        {/* <button aria-label="Open Menu" title="Open Menu" class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50">
                             <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
                                 <path fill="currentColor" d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"></path>
                                 <path fill="currentColor" d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z"></path>
                                 <path fill="currentColor" d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z"></path>
                             </svg>
-                        </button>
+                        </button> */}
                         {/* <!-- Mobile menu dropdown  */}
-                        <div class="absolute top-0 left-0 w-full">
+                        {/* <div class="absolute top-0 left-0 w-full">
                             <div class="p-5 bg-white border rounded shadow-sm">
                                 <div class="flex items-center justify-between mb-4">
                                     <div>
@@ -79,7 +79,7 @@ const Navbar = () => {
                                     </ul>
                                 </nav>
                             </div>
-                        </div>
+                        </div> */}
                         {/* --> */}
                     </div>
                 </div>
@@ -87,7 +87,9 @@ const Navbar = () => {
 
 
 
+            {/* <div className={styles.ddd}>
 
+            </div> */}
 
 
 

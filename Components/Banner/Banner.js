@@ -39,10 +39,7 @@ const Banner = () => {
         </div>
 
         <div className=
-        "lg:max-w-lg lg:w-full md:w-1/2 w-5/6"
-        >
-          {/* <h1>kkk</h1> */}
-          {/* <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" /> */}
+        "lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <Image className='pt-[-10px]' src='/img/Group 4227.png' width={584} height={580}/>
         </div>
       </div>

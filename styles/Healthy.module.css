@@ -1,0 +1,20 @@
+.card{
+margin: 120px 0;
+padding: 87px 85px;
+background: linear-gradient(87.05deg, #6462F0 0%, #9190E9 95.5%);
+border-radius: 30px;
+}
+
+.cardImg{
+width: 100px;
+height: 100px;
+left: 983px;
+top: 1232px;
+
+background: hsla(0, 0%, 100%, 0.28);
+/* opacity: 0.2; */
+/* backdrop-filter: blur(32px); */
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}

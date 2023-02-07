@@ -6,6 +6,7 @@ import Banner from '@/Components/Banner/Banner'
 import Navbar from '@/Components/Banner/Navbar'
 import Healthy from '@/Components/Banner/Healthy'
 import FullBody from '@/Components/Banner/FullBody'
+import Footer from '@/Components/Banner/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Healthy />
         <FullBody />
       </div>
+      <Footer/>
     </div>
   )
 }

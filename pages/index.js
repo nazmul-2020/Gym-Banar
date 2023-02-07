@@ -12,14 +12,12 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <div className={styles.bg_img}>
-    <div className='mx-[99px]'>
-     
-      <Navbar/>
-      <Banner />
-      <Healthy/>
-      <FullBody/>
-
-    </div>
+      <div className='mx-[99px]'>
+        <Navbar />
+        <Banner />
+        <Healthy />
+        <FullBody />
+      </div>
     </div>
   )
 }

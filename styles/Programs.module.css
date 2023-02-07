@@ -1,0 +1,33 @@
+.pCircle1 {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(45.98deg, #5478EF 19.69%, #D6DFFF 92.63%);
+    box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pCircle2 {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(50.31deg, #4BACE1 15.91%, #D8F1FF 92.82%);
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pCircle3 {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(35.49deg, #DD69C7 15.2%, #FFC0F3 87.25%);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
